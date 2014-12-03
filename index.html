@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <meta charset="UTF-8">
+	    <title>pizza.de Roulette</title>
+	    <meta name="description" content="pizza.de Zufallsgenerator - Auf dieser Seite k&ouml;nnt ihr euch einen Lieferdienst per Zufallsgenerator ausw&auml;hlen lassen.">
+	    <meta name="author" content="Timo Schlueter (timo.schlueter@me.com)">
+	    <meta name="keywords" content="pizza.de, lieferdienst, bringdienst, zufallsgenerator, zufall, roulette, random">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/pizzaroulette.js"></script>
+		<script src="js/bootstrap-typeahead.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="image_src" href="http://pizza.de/0_image/pizza.de.png" />
+	</head>
+	<body>
+		
+		<div class="container ">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="page-header">
+						<h1>pizza.de Roulette <br/><small>Der Lieferdienst-Zufallsgenerator</small></h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Schritt 1: Liefergebiet ausw&auml;hlen</h3>
+						</div>
+						<div class="panel-body">
+							<div class="input-group">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></span>
+								<input class="form-control typeahead" type="text" placeholder="Postleitzahl">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Schritt 2: Knopf dr&uuml;cken</h3>
+						</div>
+						<div class="panel-body">
+							<div class="form-group">
+								<button type="button" class="btn btn-primary roulette-button" disabled><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>&nbsp;&nbsp;Roulette starten</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Schritt 3: Lieferdienst ausw&auml;hlen</h3>
+						</div>
+						<div class="panel-body">
+							<div class="row store-details" style="display:none;">
+								<div class="col-sm-2">
+									<a target="_blank" href="#" class="thumbnail store-link">
+										<img class="store-thumb" alt="pizza.de Logo" src="http://pizza.de/0_image/pizza.de.png" />
+									</a>
+								</div>
+								<div class="col-sm-9">
+									<h4 class="store-name"><a href="#" class="store-link">Chinarestaurant Phung</a></h4>
+									<ul class="list-unstyled">
+										<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>&nbsp;&nbsp;<span>Öffnungszeiten: </span><span class="store-opening">15:00-20:00</span></li>
+									  	<li><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>&nbsp;&nbsp;<span>Mindestbestellwert: </span><span class="store-order-min">9,95 €</span></li>
+									  	<li><span class="glyphicon glyphicon-road" aria-hidden="true"></span>&nbsp;&nbsp;<span>Anfahrtskosten: </span><span class="store-delivery-cost">0,00 €</span></li>	
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>&nbsp;&nbsp;2014 - Timo Schl&uuml;ter | <a href="https://twitter.com/tmuuh"><i class="fa fa-twitter"></i>&nbsp;Twitter</a> | <a href="https://github.com/timoschlueter"><i class="fa fa-github"></i>&nbsp;GitHub</a> | <a href="https://www.xing.com/profile/Timo_Schlueter4?sc_o=mxb_p"><i class="fa fa-xing"></i>&nbsp;XING</a></p>
+				</div>
+			</div>
+		</div>
+	
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-46375088-3', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+	</body>
+</html>
