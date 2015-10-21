@@ -1,5 +1,1 @@
-AuthUserFile /www/htdocs/w00bc992/pizza.de/usage/.htpasswd
-AuthGroupFile /dev/null
-AuthName 'ByPassword'
-AuthType Basic
-require valid-user
+
